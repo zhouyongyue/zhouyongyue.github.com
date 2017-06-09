@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>!function (b, e) { var c = b.documentElement, d = function () { var a = c.clientWidth; 769 > a && a && (c.style.fontSize = a / 320 * 20 + "px") }; e.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", d, !1); b.addEventListener("DOMContentLoaded", d, !1) }(document, window);</script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+	<title>Developer</title>
+	<link rel="stylesheet" href="skin/css/public.css">
+	<link rel="stylesheet" href="skin/css/swiper.css">
+	<link rel="stylesheet" href="skin/css/page1.css">
+</head>
+<body>
+    <div class="page">
+        <div class="page-banner" pcSrc="pc端路径" mobileSrc="移动端路径"></div>
+        <div class="developer w1600">
+            <div class="top">
+                <div class="bt">Power User</div>
+                <div class="sm">Welcome to our big family DOSS whose tenet is JUST FOR SMART LIFE.</div>
+                <ul class="powerList">
+                    <li><a href=""><img src="uploads/powerList01.png"></a></li>
+                    <li><a href=""><img src="uploads/powerList01.png"></a></li>
+                    <li><a href=""><img src="uploads/powerList01.png"></a></li>
+                    <li><a href=""><img src="uploads/powerList01.png"></a></li>
+                </ul>
+                <a class="applyNow" href="">APPLY NOW</a>
+            </div>
+            <div class="bottom">
+                <div class="bt">Influencer</div>
+                <div class="sm">Welcome to our big family DOSS whose tenet is JUST FOR SMART LIFE.</div>
+                <ul class="influeList">
+                    <li>
+                        <a class="img" href=""><img src="uploads/influeList01.png"></a>
+                        <img class="tu tu01" src="skin/images/influeListTu01.png">
+                    </li>
+                    <li>
+                        <a class="img" href=""><img src="uploads/influeList01.png"></a>
+                        <img class="tu tu02" src="skin/images/influeListTu02.png">
+                    </li>
+                    <li>
+                        <a class="img" href=""><img src="uploads/influeList01.png"></a>
+                        <img class="tu tu03" src="skin/images/influeListTu03.png">
+                    </li>
+                    <li>
+                        <a class="img" href=""><img src="uploads/influeList01.png"></a>
+                        <img class="tu tu04" src="skin/images/influeListTu04.png">
+                    </li>
+                </ul>
+                <a class="applyNow" href="">APPLY NOW</a>
+            </div>
+        </div>
+    </div>
+<script src="skin/js/jquery-1.8.2.min.js"></script>
+<script src="skin/js/page.js"></script>
+<script src="skin/js/swiper.js"></script>
+<script>
+$(function(){
+    var $banSrc=$(".page-banner");
+    if($(window).width()>640){
+        $banSrc.attr("src:"url("+$banSrc.attr("pcSrc")+")"});
+    }else{
+        $banSrc.css({"background-image":"url("+$banSrc.attr("mobileSrc")+")"});
+    };
+
+
+
+
+
+});
+</script>
+</body>
+</html>

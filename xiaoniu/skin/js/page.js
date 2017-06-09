@@ -1,0 +1,9 @@
+//联系弹窗
+$(".contact").on("click",function(){
+    $(".contact-tan").fadeIn(400);
+    $(".mask").fadeIn(300);
+});
+$(".contact-tan-colse").on("click",function(){
+    $(".contact-tan").fadeOut(300);
+    $(".mask").fadeOut(400);
+});

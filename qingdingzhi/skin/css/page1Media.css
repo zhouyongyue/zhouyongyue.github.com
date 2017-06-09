@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+.font12{font-size:12px}
+.font14{font-size:14px}
+.font16{font-size:16px}
+.font18{font-size:18px}
+.font20{font-size:20px}
+.font22{font-size:22px}
+.font24{font-size:24px}
+.font34{font-size:34px}
+.font55{font-size:55px}
+
+
+@media screen and (max-width: 1500px){
+    .about-mod .cnt1 .three .nr .left{width:36%}
+    .about-mod .cnt1 .three .nr .right{width:63%}
+    .about-mod .cnt1 .three .nr .right a{width:22%;margin-left:3%}
+}
+@media screen and (max-width: 1250px){
+    .about-mod .cnt4 .address .address01 .nr{height:200px}
+}
+@media screen and (max-width: 1200px){
+    .about-mod .cnt1 .three .nr .left{width:43%}
+    .about-mod .cnt1 .three .nr .right{width:57%}
+    .about-mod .cnt1 .three .nr .right a{width:30%;margin-left:3.3%}
+    .anli .case-list .list .bom .qt div{font-size:12px}
+}
+
+@media screen and (max-width: 1024px){
+    .about-mod .cnt1 .three .nr .left{width:100%}
+    .about-mod .cnt1 .three .nr .left .top span{width:33%;text-align:center}
+    .about-mod .cnt1 .three .nr .right{width:100%;text-align:center}
+    .about-mod .cnt1 .three .nr .right a{width:20%;margin:.5rem 2%;display:inline-block;float:none}
+    .news-list .list{width:45%;margin:0 0 40px 0}
+    .news-list .list:nth-child(odd){margin-right:10%}
+    .service .quality .list>li{width:50%;margin-bottom:20px}
+    .anli .case-list .list{width:48%;margin-right:4%;}
+    .anli .case-list .list:nth-child(3n){margin-right:4%}
+    .anli .case-list .list:nth-child(even){margin-right:0}
+    .anli .case-list .list .bom .qt div{font-size:14px}
+
+}
+
+@media screen and (max-width: 768px){
+    .font12{font-size:.5rem}
+    .font14{font-size:.5rem}
+    .font16{font-size:.5rem}
+    .font18{font-size:.5rem}
+    .font20{font-size:.6rem}
+    .font22{font-size:.7rem}
+    .font24{font-size:.72rem}
+    .font34{font-size:.8rem}
+    .font55{font-size:1.3rem}
+
+    /*关于我们*/
+    .about-banner{height:8.6rem}
+    .about-int{height:1.5rem}
+    .about-mod{width:90%}
+    .about-mod .btn{height:2rem;line-height:2rem}
+    .about-mod .btn a{margin:0 .5rem}
+
+    .about-mod .cnt1{margin-bottom:2rem}
+    .about-mod .cnt1 .one{padding:2rem 0}
+    .about-mod .cnt1 .one>div{width:100%}
+    .about-mod .cnt1 .one .left{padding:0 .3rem}
+    .about-mod .cnt1 .one .right{padding:0 .3rem;margin-top:2rem}
+    .about-mod .cnt1 .two{padding: 2.25rem 0 3.5rem}
+    .about-mod .cnt1 .two .exc{margin-top:.75rem}
+    .about-mod .cnt1 .two .c-logo{margin-top:2.5rem}
+    .about-mod .cnt1 .three{padding:.6rem 0 2rem}
+    .about-mod .cnt1 .three .tit{height:2rem;line-height:2rem}
+    .about-mod .cnt1 .three .nr{padding-top:1.5rem}
+    .about-mod .cnt1 .three .nr .left .top span{width:50%;text-align:center;padding-top:.5rem!important}
+    .about-mod .cnt1 .three .nr .left .top .sp1{line-height:normal}
+    .about-mod .cnt1 .three .nr .left .bottom{margin-top:.5rem}
+    .about-mod .cnt1 .three .nr .left .bottom .s{height:1.75rem;margin-bottom:1rem}
+    .about-mod .cnt1 .three .nr .left .bottom .s .tu{width:1.75rem}
+    .about-mod .cnt1 .three .nr .left .bottom .s .wz{margin-left:2rem;padding-left:.5rem}
+    .about-mod .cnt1 .three .nr .right a{width:40%;margin:.5rem 2%}
+    .about-mod .cnt1 .four .tit{margin-bottom:2rem}
+    .about-mod .cnt1 .four .tit span{height:2rem;line-height:2rem}
+    .about-mod .cnt1 .four .science div{width:100%!important;margin:0 auto!important}
+    .about-mod .cnt1 .five .tit{margin-bottom:2rem}
+    .about-mod .cnt1 .five .tit span{height:2rem;line-height:2rem}
+    .about-mod .cnt1 .five .honor .list{width:48%;margin:0 0 10px 0}
+    .about-mod .cnt1 .five .honor .list:nth-child(odd){margin-right:4%}
+    .about-mod .cnt1 .five .honor .list div{height:1.5rem;line-height:1.5rem}
+
+    /*联系我们*/
+    .about-mod .cnt4{padding-top:1rem;margin:0 auto 2rem}
+    .about-mod .cnt4 .tit{margin-bottom:1.5rem}
+    .about-mod .cnt4 .tit span{height:2rem;line-height:2rem}
+    .about-mod .cnt4 .map{height:10rem}
+    .about-mod .cnt4 .address .address01{padding:2rem 0 1.5rem}
+    .about-mod .cnt4 .address .address01 .bt{margin-bottom:1.5rem}
+    .about-mod .cnt4 .address .address01 .nr{height:auto;width:100%!important;margin-bottom:1rem}
+    .about-mod .cnt4 .address .address01 .nr .xbt{margin-bottom:.5rem}
+    .about-mod .cnt4 .address .address01 .nr .xnr{line-height:1rem;width:100%}
+    .about-mod .cnt4 .address .address01 .nr .xnr div span{width:100%}
+
+    /*人才招聘*/
+    .about-mod .cnt2{padding:5%;margin-bottom:2rem}
+    .about-mod .cnt2 .list>div span{padding:.5rem .1rem}
+    .about-mod .cnt2 .list .nr .details{padding:1rem .5rem;line-height:1rem}
+
+    /*新闻中心*/
+    .tab{height:2rem;line-height:2rem;margin-bottom:1.5rem}
+    .tab .tabBnt a{padding:0 .25rem}
+    .news-list .list{width:100%;margin:0 0 1rem 0}
+    .news-list .list .bom{padding:.5rem}
+    .news-list .list .bom .time{line-height:1rem}
+    .news-list .list .bom .cnt{height:2rem}
+    .paging{height:1.2rem}
+    .paging a{width:1.2rem;line-height:1.2rem;margin:0 .1rem}
+    .nes-int{height:2rem}
+
+    /*新闻详情*/
+    .news-int{height:2rem}
+    .secon_nav{height:2rem;line-height:2rem}
+    .secon_nav a{margin:0 0.1rem}
+    .careful{margin-bottom:2rem;padding-bottom:1rem}
+    .careful .deta .tit{padding:1.8rem 0 1rem}
+    .careful .explain{height:auto;line-height:1rem}
+    .careful .explain .time{margin-right:1rem}
+    .careful .explain .fx{width:100%;margin:0.5rem 0}
+    .careful .explain .fx .bdsharebuttonbox a{width:0.75rem;height:0.75rem}
+    .careful .explain .goBack{width:5rem;height:1rem;line-height:1rem;float:left}
+    .careful .content{padding-bottom:1rem}
+    .careful .content img{margin:1rem auto 0}
+    .careful .content *{margin-top:1rem;line-height:1rem}
+    .careful .btn a{width:5rem;height:1rem;line-height:1rem}
+
+    /*服务中心*/
+    .service .service-banner{height:auto}
+    .service .service-banner .lb{width:100%}
+    .service .service-banner .lb .swiper-container .swiper-pagination{bottom:10px}
+    .service .service-banner .dynamic{width:100%;height:auto;margin-top:.5rem}
+    .service .service-banner .dynamic .btn{height:1.5rem;line-height:1.5rem}
+    .service .service-banner .dynamic .cnt>li{padding:.25rem .5rem;line-height:1rem}
+    .service .service-banner .dynamic .cnt>li .wz{height:1.5rem}
+
+    .service .quality .tit{height:2rem;line-height:2rem}
+    .service .quality .list{padding:1.25rem 0}
+    .service .quality .list>li{width:50%;height:7rem;margin-bottom:1rem}
+    .service .quality .list>li .img{margin:0.75rem auto;height:2rem}
+    .service .quality .list>li .nr{line-height:0.75rem;padding:0 0.5rem}
+
+    .service .design .tit{height:2rem;line-height:2rem}
+    .service .design .list .left{width:100%;height:14rem;padding-top:1.175rem;margin-bottom:0.5rem}
+    .service .design .list .left .img01{width:1.65rem;height:1.475rem;margin:0 auto 0.5rem}
+    .service .design .list .left .wz02{margin-top:0.25rem}
+    .service .design .list .left .wz3{padding:1rem 0 1.25rem;margin:0}
+    .service .design .list .left .wz3 .one{width:1.4rem;height:1.8rem}
+    .service .design .list .left .wz3 .one p{line-height:0.625rem}
+    .service .design .list .left .wz3 .one p.p1{line-height:1.15rem}
+    .service .design .list .left .wz04 .p1{margin:1rem 0 0.5rem}
+    .service .design .list .left .wz04 .a1{height:1.5rem;line-height:1.5rem}
+
+    .service .design .list .right{width:100%;margin-left:0}
+    .service .design .list .right>a{width:100%;height:7rem;margin:0 0 0.5rem 0;padding-top:0.75rem}
+    .service .design .list .right>a .img01{width:1.325rem;height:1.75rem}
+    .service .design .list .right>a .div01{margin:0.5rem 0 0.4rem}
+    .service .design .list .right>a .div03{margin-top:0.6rem}
+    .fuwuint{height:1rem}
+    .fuwuint2{margin-top:-0.5rem}
+
+    /*帮助中心*/
+    .help-list{background:#fff;width:90%;padding:1.625rem 1rem}
+    .help-list>li{margin-bottom:1rem}
+    .help-list>li .wt{line-height:0.8rem}
+    .help-list>li .hd{line-height:1rem}
+
+    /*案例列表*/
+    .anli .sort{top:-1.5rem;padding:0.75rem 1rem 1rem}
+    .anli .sort .list{line-height:1.5rem}
+    .anli .sort .list .left{width:2.5rem;margin-right:0.25rem}
+    .anli .sort .list .right{margin-left:2.5rem}
+    .anli .sort .list .right a{margin:0 0.3rem}
+    .anli .sort .list .right a.active{padding:0.2rem 0.28rem}
+    .anli .case-list{margin-top:2rem}
+    .anli .case-list .list{width:100%;margin-right:0 !important;margin-bottom:1rem}
+    .anli .case-list .list .bom .bt{height:1.5rem;line-height:1.5rem}
+    .anli .case-list .list .bom .qt{height:1.5rem;line-height:1.5rem}
+    .anli .case-list .list .bom .qt div{font-size:0.5rem}
+    .anli .case-list .list .bom .an{margin:0.5rem auto 0.6rem;width:4rem;height:1.5rem;line-height:1.5rem}
+
+    /*案例列表详情*/
+    .case-details .order{width:100%;margin-bottom:1rem}
+    .case-details .order .wd01{padding:1rem}
+    .case-details .order .wd01 .wz01{color:#333;margin:0.9rem 0 0.5rem}
+    .case-details .order .wd01 .wz02{height:1rem;line-height:1rem}
+    .case-details .order .wd01 .wz02 .bdsharebuttonbox a{margin:0 0 0 0.25rem;width:1rem;height:1rem}
+    .case-details .order .wd02{padding:0.75rem}
+    .case-details .order .wd02 .list{margin:0.8rem 0}
+    .case-details .order .wd02 .list>div.lb01{width:0.5rem;height:0.5rem;margin-right:0.4rem;margin-top:0.1rem}
+    .case-details .order .wd02 .list>div.lb05{margin-right:0.4rem}
+    .case-details .order .wd02 .list>div.lb06{width:0.5rem;height:0.5rem;margin-top:0.15rem}
+    .case-details .order .wd03 .exp{padding:0 0.75rem;margin-bottom:0.6rem;line-height:1rem}
+    .case-details .order .wd03 .settle{;padding-left:0.75rem;height:1rem;line-height:1rem;margin-bottom:1.3rem}
+    .case-details .order .wd03 .settle b{width:2.75rem;height:1.2rem}
+    .case-details .order .wd03 .button{padding:0 0.5rem;height:2rem;line-height:2rem}
+    .case-details .order .wd04{padding:1.5rem 0.75rem 2rem;line-height:1rem}
+    .case-details .cnt{margin:0;padding-right:0}
+    .order_nav{height:2rem;line-height:2rem;width:100%}
+    .order_nav a{margin:0 0.25rem}
+
+    /*产品预览*/
+	.head{height:2rem;line-height:2rem;padding-left:0}
+	.head .left{display:none}
+	.head .center{float:left;margin:0}
+	.head .center .abq a{width:2rem}
+	.preview{display:none}
+	.preview2{display:block}
+
+}
