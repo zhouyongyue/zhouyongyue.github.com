@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>!function (b, e) { var c = b.documentElement, d = function () { var a = c.clientWidth; 769 > a && a && (c.style.fontSize = a / 320 * 20 + "px") }; e.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", d, !1); b.addEventListener("DOMContentLoaded", d, !1) }(document, window);</script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+	<title>Supports</title>
+	<link rel="stylesheet" href="skin/css/public.css">
+	<link rel="stylesheet" href="skin/css/swiper.css">
+	<link rel="stylesheet" href="skin/css/page1.css">
+</head>
+<body>
+    <div class="page">
+        <div class="page-banner" pcSrc="pc端路径" mobileSrc="移动端路径"></div>
+        <div class="suppor w1600">
+            <div class="tit">Download<span>User Manual / Firmware</span></div>
+            <div class="list">
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+                <a href="">
+                    <div class="img">
+                        <img src="uploads/supports01.png">
+                    </div>
+                    <span>Ultra design</span>
+                </a>
+            </div>
+            <div class="ser">
+                <div class="modular">
+                    <div class="bt">Customer Service</div>
+                    <div class="nr">
+                        <img src="uploads/ser01.jpg">
+                        <div class="email">
+                            <a><i class="img"></i>US:<span>support@dossav.com</span></a>    <br/>
+                            <a><i class="img"></i>DE:<span>support_de@dossav.com</span></a> <br/>
+                            <a><i class="img"></i>ES:<span>support_es@dossav.com</span></a> <br/>
+                            <a><i class="img"></i>JP:<span>support_jp@dossav.com</span></a> <br/>
+                            <a><i class="img"></i>UK:<span>support_uk@dossav.com</span></a> <br/>
+                            <a><i class="img"></i>FR:<span>support_fr@dossav.com</span></a> <br/>
+                            <a><i class="img"></i>IT:<span>support_it@dossav.com</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modular">
+                    <div class="bt">Customer Service</div>
+                    <div class="nr">
+                        <img src="uploads/ser01.jpg">
+                    </div>
+                </div>
+                <div class="modular">
+                    <div class="bt">Warranty</div>
+                    <div class="nr">
+                        <img src="uploads/ser01.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="skin/js/jquery-1.8.2.min.js"></script>
+<script src="skin/js/page.js"></script>
+<script src="skin/js/swiper.js"></script>
+<script>
+$(function(){
+    var $banSrc=$(".page-banner");
+    if($(window).width()>640){
+        $banSrc.css({"background-image":"url("+$banSrc.attr("pcSrc")+")"});
+    }else{
+        $banSrc.css({"background-image":"url("+$banSrc.attr("mobileSrc")+")"});
+    };
+
+    for(var i=0;i<$(".email a").length;i++){
+        $(".email a").eq(i).attr({
+            "href":"mailto:"+$(".email a").eq(i).children("span").html(),
+            "title":"点击向此邮箱发送邮件"
+        });
+    };
+
+
+
+});
+</script>
+</body>
+</html>

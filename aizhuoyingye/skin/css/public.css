@@ -1,0 +1,73 @@
+@charset "utf-8";
+*{padding:0;margin:0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+html,body{height:100%;min-width:1300px;}
+body{font-family:Arial,"微软雅黑",Arial;background:#fff;color:#666;font-size:14px;min-width:1340px;}
+ul{list-style:none;}
+img{border:0;}
+input,select,textarea{font-family:"微软雅黑";border:0px none;}
+a{text-decoration:none;color:#666;-webkit-transition:.3s;-o-transition:.3s;-moz-transition:.3s;transition:.3s;}
+a:hover{text-decoration:none;-webkit-transition:.3s;-o-transition:.3s;-moz-transition:.3s;transition:.3s;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+input:focus{outline:none;}
+input[type=button]{cursor: pointer;outline: none;-webkit-appearance:none;}
+input[type=button]:focus,textarea:focus{outline:none;}
+
+.clearfix{*zoom:1;}
+.clearfix::before{display:table;content:"";}
+.clearfix::after{clear:both;display:block;content:"";height:0;overflow:hidden;visibility:hidden;}
+
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+
+.w1200{width:1200px;margin:0 auto;}
+
+.overh{overflow:hidden;}
+
+.textHidden{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+
+.transition300{transition:300ms ease-out;-webkit-transition:300ms ease-out;-ms-transition:300ms ease-out;-moz-transition:300ms ease-out;-o-transition:300ms ease-out;}
+.transition500{transition:500ms ease-out;-webkit-transition:500ms ease-out;-ms-transition:500ms ease-out;-moz-transition:500ms ease-out;-o-transition:500ms ease-out;}
+.transition800{transition:800ms ease-out;-webkit-transition:800ms ease-out;-ms-transition:800ms ease-out;-moz-transition:800ms ease-out;-o-transition:800ms ease-out;}
+
+.warp{position:relative;min-height:100%;padding-bottom:200px}
+
+.header{width:100%;height:60px;background:#484642}
+.header .headerCnt{height:60px}
+.header .headerCnt .left{float:left;height:100%;line-height:60px}
+.header .headerCnt .left>li{float:left;margin-left:60px;height:100%;position:relative}
+.header .headerCnt .left>li>a{font-size:18px;color:#fff}
+.header .headerCnt .left>li.logo{width:152px;height:30px;margin-left:0;margin-top:13px;line-height:normal}
+.header .headerCnt .left>li>a span{position:absolute;left:0;bottom:0;width:0;height:3px;background:#eec97f}
+.header .headerCnt .left>li>a.on,.header .headerCnt .left>li>a:hover{color:#eec97f}
+.header .headerCnt .left>li.more{cursor:default}
+.header .headerCnt .left>li.more>a:hover{color:#fff}
+.header .headerCnt .left>li>a.on span,.header .headerCnt .left>li>a:hover span{width:100%}
+.header .headerCnt .left>li>a i.xl{width:12px;height:8px;display:inline-block;background:url(../images/header-xl.png) no-repeat center/cover;vertical-align:middle;margin-left:8px}
+.header .headerCnt .left>li .more-list{width:120px;position:absolute;top:60px;left:-20px;z-index:20;padding-left:10px;background:#484642;box-shadow:0 0 10px 1px #484642;display:none}
+.header .headerCnt .left>li .more-list>li{height:30px;line-height:30px}
+.header .headerCnt .left>li .more-list>li a{color:#fff}
+.header .headerCnt .left>li .more-list>li a:hover{color:#eec97f}
+.header .headerCnt .right{float:right;width:240px;height:35px;background:#fafafa;margin-top:13px;border-radius:5px}
+.header .headerCnt .right .ipt{width:200px;height:100%;padding:10px;border-radius:5px;background:#fafafa;float:left}
+.header .headerCnt .right .btn{width:22px;height:22px;float:left;margin-top:6px;background:url(../images/header-sech.png) no-repeat center/cover}
+
+.footer{width:100%;height:200px;background:#484642;position:absolute;bottom:0;left:0}
+.footer .top{height:121px;border-bottom:1px solid #5b5955}
+.footer .top .topCnt .logo{width:152px;height:30px;float:left;margin-top:45px}
+.footer .top .topCnt .topCntHref{text-align:center;height:120px;line-height:120px}
+.footer .top .topCnt .topCntHref span{color:#5b5a59;line-height:10px;font-size:15px}
+.footer .top .topCnt .topCntHref a{color:#fff;margin:0 20px}
+.footer .top .topCnt .topCntHref a:hover{color:#efca7f}
+.footer .bottom{height:79px;line-height:79px;text-align:center;color:#878684}
+
+.page{text-align:center;padding:40px 0}
+.page a{display:inline-block;width:40px;height:40px;line-height:38px;border:1px solid #eee;background:#fff;color:#333;margin:0 3px}
+.page a.on,.page a:hover{background:#484642;color:#fff}
+.page a.next,.page a.prev{color:#d5d5d5}
+
+.Inthepage .btn{width:100%;height:80px;background:#fff}
+.Inthepage .btn a{margin-right:41px;font-size:16px;color:#484642;padding:5px;position:relative;float:left;height:100%;line-height:64px}
+.Inthepage .btn a span{width:0;height:3px;background:#ecc87e;position:absolute;bottom:0;left:0}
+.Inthepage .btn a.active span,
+.Inthepage .btn a:hover span{width:100%}

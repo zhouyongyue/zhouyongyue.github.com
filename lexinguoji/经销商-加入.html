@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>!function (b, e) { var c = b.documentElement, d = function () { var a = c.clientWidth; 1025 > a && a && (c.style.fontSize = a / 320 * 20 + "px") }; e.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", d, !1); b.addEventListener("DOMContentLoaded", d, !1) }(document, window);</script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+	<title>经销商-加入</title>
+	<link rel="stylesheet" href="skin/css/public.css">
+	<link rel="stylesheet" href="skin/css/swiper.css">
+	<link rel="stylesheet" href="skin/css/page1.css">
+</head>
+<body>
+<header>
+    <div class="w1400 clearfix">
+        <div class="logo fl"><a href=""><img src="skin/images/logo.png" width="100%" alt=""></a></div>
+        <div class="menu"></div>
+        <div class="nav">
+            <ul>
+                <li class="pro">
+                    <a href="javascript:">Lifesense Product</a>
+                    <div class="pro-box tran300">
+                        <div class="w1400 clearfix">
+                            <div class="fr">
+                                <ul>
+                                    <li><a href="">Lifesense band 2</a></li>
+                                    <li><a href="">Lifesense band 2S</a></li>
+                                    <li><a href="">Lifesense WATCH</a></li>
+                                </ul>
+                                <div class="img-box" style="display:block;">
+                                    <a href=""><img src="uploads/img01.png" alt=""></a>
+                                    <div class="tit"><a href="">1Used for handsome boy</a></div>
+                                </div>
+                                <div class="img-box">
+                                    <a href=""><img src="uploads/img01.png" alt=""></a>
+                                    <div class="tit"><a href="">2Used for handsome boy</a></div>
+                                </div>
+                                <div class="img-box">
+                                    <a href=""><img src="uploads/img01.png" alt=""></a>
+                                    <div class="tit"><a href="">3Used for handsome boy</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">APP</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Global Agent</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="warp">
+    <div class="distributor">
+        <img class="distrBanner" pcSrc="uploads/distributor-banner.jpg" mobileSrc="uploads/distributor-banner.jpg" >
+        <div class="w1280 dea">
+            <div class="btn">
+                <a href="经销商.html">Local Dealer List</a>
+                <a class="active" href="经销商-加入.html">Become Our Dealer</a>
+            </div>
+            <div class="cnt">
+                <div class="distrFrom">
+                    <input class="ipt1 sk tran300" type="text" placeholder="Name">
+                    <input class="ipt1 sk tran300" type="text" placeholder="Contact Person">
+                    <input class="ipt1 sk tran300" type="text" placeholder="Email">
+                    <input class="ipt1 sk tran300" type="text" placeholder="TEL">
+                    <input class="ipt2 sk tran300" type="text" placeholder="Address">
+                    <textarea class="textarea1 sk tran300" placeholder="Message"></textarea>
+                    <div class="clearfix"></div>
+                    <label class="sub1 tran300">
+                        SEND
+                        <input type="button" value="SEND">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="w1400 clearfix">
+        <div class="left clearfix">
+            <ul>
+                <li class="tit">Support<span class="line" style="width:35px;"></span></li>
+                <li><a href="">Find QRcode</a><span class="hot"></span></li>
+                <li><a href="">Q&A</a></li>
+            </ul>
+            <ul>
+                <li class="tit">About Us<span class="line" style="width:50px;"></span></li>
+                <li><a href="">Who We Are</a></li>
+                <li><a href="">Our News</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li class="tit">Global Agent<span class="line" style="width:70px;"></span></li>
+                <li><a href="">Local Agent List</a></li>
+                <li><a href="">Become Our Agent</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a class="icon01" href=""></a>
+            <a class="icon02" href=""></a>
+        </div>
+    </div>
+</div>
+<script src="skin/js/jquery-1.8.2.min.js"></script>
+<script src="skin/js/page.js"></script>
+<script src="skin/js/swiper.js"></script>
+<script>
+    $(function(){
+        var $pageBanner = $(".distrBanner");
+        if($(window).width()>768){
+            $pageBanner.attr("src",$pageBanner.attr("pcSrc"));
+        }
+        else{
+            $pageBanner.attr("src",$pageBanner.attr("mobileSrc"));
+        };
+    });
+</script>
+</body>
+</html>

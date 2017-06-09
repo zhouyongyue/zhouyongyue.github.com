@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>!function (b, e) { var c = b.documentElement, d = function () { var a = c.clientWidth; 769 > a && a && (c.style.fontSize = a / 320 * 20 + "px") }; e.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", d, !1); b.addEventListener("DOMContentLoaded", d, !1) }(document, window);</script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+	<title>下载详情</title>
+	<link rel="stylesheet" href="skin/css/public.css">
+	<link rel="stylesheet" href="skin/css/swiper.css">
+	<link rel="stylesheet" href="skin/css/page1.css">
+</head>
+<body>
+<header>
+    <div class="w1600 clearfix">
+        <div class="logo fl"><a href=""><img src="skin/images/logo.png" alt=""></a></div>
+        <div class="menu fr"></div>
+        <div class="nav fl">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li class="dropdown-pro">
+                    <a href="javascript:">Products</a>
+                    <div class="box">
+                        <div class="content clearfix">
+                            <!--当小于1024的时候，产品不显示，下面的data-href链接赋值给href-->
+                            <ul class="fl">
+                                <li class="active"><a href="javascript:" data-href="http://www.baidu.com">Bluetooth Speakers</a></li>
+                                <li><a href="javascript:" data-href="http://www.baidu.com">Outdoor Speakers</a></li>
+                                <li><a href="javascript:" data-href="http://www.baidu.com">Smart Speakers with <br/>Amazon Alexa</a></li>
+                                <li><a href="javascript:" data-href="http://www.baidu.com">Bluetooth Earbuds</a></li>
+                            </ul>
+                            <!--当小于4 and 等于4个的时候，more不显示，当大于4个的时候，more显示-->
+                            <div class="pro-box fr clearfix" style="display:block;">
+                                <ul>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <!-- <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li> -->
+                                    <li><a class="more" href="">MORE >></a></li>
+                                </ul>
+                            </div>
+                            <div class="pro-box fr clearfix">
+                                <ul>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="pro-box fr clearfix">
+                                <ul>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="pro-box fr clearfix">
+                                <ul>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                    <li><a href=""><img width="100%" src="uploads/img01.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:">Developer</a>
+                    <ul>
+                        <li><a href="">Power User</a></li>
+                        <li><a href="">Influencer</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:">Support</a>
+                    <ul>
+                        <li><a href="">Download</a></li>
+                        <li><a href="">Customer Service</a></li>
+                        <li><a href="">Warranty</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right fr">
+            <div class="lang fl">
+                <a href="javascript:">English</a>
+                <div class="box">
+                    <a href="">English</a>
+                    <a href="">Deutsch</a>
+                    <a href="">Français</a>
+                    <a href="">にほんご</a>
+                </div>
+            </div>
+            <a class="fl" href="">USER</a>
+        </div>
+    </div>
+</header>
+    <div class="page">
+        <img class="page-banner" pcSrc="" mobileSrc="移动端路径">
+        <div class="downDetails w1600">
+            <div class="tit">Download</div>
+            <div class="model">Model No: DOSS SoundBox</div>
+            <div class="product">
+                <img class="tu" src="uploads/downDetails01.jpg">
+                <div class="introd">
+                    <div class="bt">Portable Bluetooth Speaker</div>
+                    <div class="nr">Product Specs:</div>
+                    <div class="nr">Bluetooth Version :4.0</div>
+                    <div class="nr">Driver output :3W×2</div>
+                    <div class="nr">Playtime :Estimated 24+hrs @80% volume</div>
+                    <div class="nr">Battery Capacity :4400mAh</div>
+                    <div class="nr">Volume/Track control :Y</div>
+                </div>
+            </div>
+            <ul class="list">
+                <li>
+                    <div class="bt">User Manual</div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="bt">User Manual</div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="bt">User Manual</div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                    <div class="xq">
+                        <span>Flyme 6.7.4.11 beta</span>
+                        <span>1205MB</span>
+                        <span>MD5：60ad39084850d15d5f48d5125153250c</span>
+                        <a href="">下载</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w1600 clearfix">
+            <div class="left clearfix">
+                <div class="foot-item01 clearfix">
+                    <ul>
+                        <li class="tit">About DOSS</li>
+                        <li><a href="">Our Company</a></li>
+                        <li><a href="">DOSS Tour</a></li>
+                        <li><a href="">Business Inquiry</a></li>
+                        <li><a href="">Video</a></li>
+                    </ul>
+                    <ul>
+                        <li class="tit">Support</li>
+                        <li><a href="">Download</a></li>
+                        <li><a href="">Warranty</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="foot-item02">
+                    <div class="tit">Customer Service</div>
+                    <ul>
+                        <li><a href="mailto:support@dossav.com">US: <span>support@dossav.com</span></a></li>
+                        <li><a href="mailto:support@dossav.com">UK: <span>support_uk@dossav.com</span></a></li>
+                        <li><a href="mailto:support@dossav.com">DE: <span>support_de@dossav.com</span></a></li>
+                        <li><a href="mailto:support@dossav.com">FR: <span>support_fr@dossav.com</span></a></li>
+                        <li><a href="mailto:support@dossav.com">ES: <span>support_es@dossav.com</span></a></li>
+                        <li><a href="mailto:support@dossav.com">IT: <span>support_it@dossav.com</span></a></li>
+                        <li><a href="mailto:support@dossav.com">JP: <span>support_jp@dossav.com</span></a></li>
+                        <li><a href="mailto:support@dossav.com">IN: <span>support_in@dossav.com</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot-item03">
+                <div class="tit">Be the first one to know our latest news</div>
+                <div class="input">
+                    <input type="text" placeholder="Enter your email address">
+                    <input type="button" value="Subscribe">
+                </div>
+                <div class="share clearfix">
+                    <a href=""><img src="skin/images/foot-share01.png" width="100%" alt=""></a>
+                    <a href=""><img src="skin/images/foot-share02.png" width="100%" alt=""></a>
+                    <a href=""><img src="skin/images/foot-share03.png" width="100%" alt=""></a>
+                    <a href=""><img src="skin/images/foot-share04.png" width="100%" alt=""></a>
+                    <a href=""><img src="skin/images/foot-share05.png" width="100%" alt=""></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="copy">Copyright © 2017 Wonders Technology Co.,Ltd. All rights reserved.</div>
+        </div>
+    </div>
+<script src="skin/js/jquery-1.8.2.min.js"></script>
+<script src="skin/js/page.js"></script>
+<script src="skin/js/swiper.js"></script>
+<script>
+$(function(){
+    var $banSrc=$(".page-banner");
+    if($(window).width()>640){
+        $banSrc.attr("src",$banSrc.attr("pcSrc"));
+    }else{
+        $banSrc.attr("src",$banSrc.attr("mobileSrc"));
+    };
+});
+</script>
+</body>
+</html>

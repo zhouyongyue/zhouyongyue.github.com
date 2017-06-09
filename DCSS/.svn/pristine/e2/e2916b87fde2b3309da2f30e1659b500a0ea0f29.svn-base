@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>!function (b, e) { var c = b.documentElement, d = function () { var a = c.clientWidth; 769 > a && a && (c.style.fontSize = a / 320 * 20 + "px") }; e.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", d, !1); b.addEventListener("DOMContentLoaded", d, !1) }(document, window);</script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+	<title>porduct</title>
+	<link rel="stylesheet" href="skin/css/public.css">
+	<link rel="stylesheet" href="skin/css/swiper.css">
+	<link rel="stylesheet" href="skin/css/page1.css">
+</head>
+<body>
+    <div class="page">
+        <img class="page-banner" pcSrc="uploads/porductBanner01.jpg" mobileSrc="移动端路径">
+
+        <div class="por01">
+            <a href="">
+                <div>
+                    <img src="uploads/porList01.png">
+                    <span>Bluetooth Speakers</span>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="uploads/porList01.png">
+                    <span>Outdoor Speakers</span>
+                </div>
+            </a>
+            <a class="active" href="" >
+                <div>
+                    <img src="uploads/porList01-hover.png">
+                    <span>Smart Speakers with Amazon Alexa</span>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="uploads/porList02.png">
+                    <span>Bluetooth Earbuds</span>
+                </div>
+            </a>
+        </div>
+        <div class="porduct w1600">
+            <div class="bt">Bluetooth Speakers</div>
+            <ul class="list">
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+            </ul>
+            <div class="bt">Outdoor Speakers</div>
+            <ul class="list">
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+            </ul>
+            <div class="bt">Smart Speakers with Amazon Alexa</div>
+            <ul class="list">
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+            </ul>
+            <div class="bt">Bluetooth Earbuds</div>
+            <ul class="list">
+                <li>
+                    <img src="uploads/porductList01.png">
+                    <div class="tm">ULTRA DESIGN</div>
+                    <div class="sm">Excellent sound quality xcellent sound quality</div>
+                    <a class="readMore" href="">Read more</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<script src="skin/js/jquery-1.8.2.min.js"></script>
+<script src="skin/js/page.js"></script>
+<script src="skin/js/swiper.js"></script>
+<script>
+$(function(){
+    var $banSrc=$(".page-banner");
+    if($(window).width()>640){
+        $banSrc.attr("src",$banSrc.attr("pcSrc"));
+    }else{
+        $banSrc.attr("src",$banSrc.attr("mobileSrc"));
+    };
+});
+</script>
+</body>
+</html>
