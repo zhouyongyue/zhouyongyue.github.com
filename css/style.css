@@ -857,7 +857,7 @@ h6.wthree-footer-text {
 		margin-top: 87px;
 	}
 	h3.w3l-heading {
-		width: 27%;
+		width: 50%;
 	}
 	.work-info h5 {
 		font-size: 1.1em;
@@ -882,7 +882,7 @@ h6.wthree-footer-text {
 		padding: 6em 0 0;
 	}
 	h3.w3l-heading {
-		width: 29%;
+		width: 50%;
 	}
 	.work-info h5 {
 		font-size: 1em;
@@ -908,7 +908,7 @@ h6.wthree-footer-text {
 		width: 35%;
 	}
 	h3.w3l-heading {
-		width: 32%;
+		width: 50%;
 	}
 	.w3_agile-contact input[type="submit"] {
 		width: 33%;
@@ -938,7 +938,7 @@ h6.wthree-footer-text {
 		letter-spacing: 2px;
 	}
 	h3.w3l-heading {
-		width: 38%;
+		width: 50%;
 	}
 	figcaption.w3layouts-caption h3 {
 		margin-top: 58px;
@@ -1003,10 +1003,10 @@ h6.wthree-footer-text {
 }
 @media screen and (max-width: 414px){
 	.header h2 {
-		font-size: 3.3em;
+		font-size: 2em;
 	}
 	.header h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	.w3l-button.banner-btn {
 		width: 49%;
@@ -1015,7 +1015,7 @@ h6.wthree-footer-text {
 		padding: 7em 0 0;
 	}
 	h3.w3l-heading {
-		width: 52%;
+		width: 55%;
 	}
 	.filtr-item{
 		float:none;
